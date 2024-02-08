@@ -13,6 +13,46 @@ body{
 
 }
 
-#nav-bar{
-    
-}
+#nav-bar {
+    background-color: #0ABAFC; 
+    border: 0.25vw solid white; 
+    padding: 10px 0;
+    text-align: center; 
+    border-radius: 1vw 1vw 1vw 1vw; 
+    box-shadow: 0 0.5vw 5px rgba(0,0,0,0.2); 
+    /* position: fixed;
+    width: 98.5vw; */
+  }
+
+  #nav-bar nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #nav-bar nav ul li {
+    display: inline; 
+  }
+
+  #nav-bar nav ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px; /* Adjust padding to match your design */
+    text-decoration: none;
+    font-family: K2D_BOLD;
+    font-size: 1.5vw;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    border-radius: 1vw 1vw 1vw 1vw; /* Rounded corners at the bottom only */
+    text-shadow: 
+    2px 2px 0 #000,  /* Horizontal shadow */
+    -1px -1px 0 #000, /* Top-left shadow */
+    1px -1px 0 #000,  /* Top-right shadow */
+    -1px 1px 0 #000,  /* Bottom-left shadow */
+    1px 1px 0 #000;   /* Bottom-right shadow */
+  }
+  
+  #nav-bar nav ul li a:hover {
+    background-color: #0984c4; /* Darker blue shade for hover effect */
+    border-radius: 1vw 1vw 1vw 1vw; /* Rounded corners at the bottom only */
+  }
