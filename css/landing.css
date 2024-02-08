@@ -1,3 +1,13 @@
+@font-face {
+    font-family: K2D_BOLD;
+    src: url('../font/K2D/K2D-Bold.ttf');
+}
+
+@font-face {
+    font-family: KANIT;
+    src: url('../font/Kanit/Kanit-Regular.ttf');
+}
+
 body{
     background-color: #feffee;
 
