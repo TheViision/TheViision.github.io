@@ -15,7 +15,7 @@ body{
 
 /* NAVBAR CSS Start */
 
-#nav-bar {
+ #nav-bar {
     background-color: #0ABAFC; 
     border: 0.25vw solid white; 
     padding: 10px 0;
@@ -45,7 +45,7 @@ body{
     padding: 1vw 10vw; 
     text-decoration: none;
     font-family: K2D_BOLD;
-    font-size: 1.5vw;
+    font-size: 1.75cvw;
     transition: background-color 0.3s; 
     border-radius: 1vw 1vw 1vw 1vw; 
     text-shadow: 
@@ -62,7 +62,7 @@ body{
     border-radius: 1vw 1vw 1vw 1vw;
   }
 
-  /* NAVBAR CSS End*/
+/* NAVBAR CSS End*/
 
 
 /* Title CSS Start*/
