@@ -13,6 +13,8 @@ body{
 
 }
 
+/* NAVBAR CSS Start */
+
 #nav-bar {
     background-color: #0ABAFC; 
     border: 0.25vw solid white; 
@@ -20,6 +22,7 @@ body{
     text-align: center; 
     border-radius: 1vw 1vw 1vw 1vw; 
     box-shadow: 0 0.5vw 5px rgba(0,0,0,0.2); 
+    margin-bottom: 1vw; 
     /* position: fixed;
     width: 98.5vw; */
   }
@@ -34,25 +37,63 @@ body{
     display: inline; 
   }
 
+    /* Stylize Text  */
   #nav-bar nav ul li a {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 20px; /* Adjust padding to match your design */
+    padding: 1vw 10vw; 
     text-decoration: none;
     font-family: K2D_BOLD;
     font-size: 1.5vw;
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
-    border-radius: 1vw 1vw 1vw 1vw; /* Rounded corners at the bottom only */
+    transition: background-color 0.3s; 
+    border-radius: 1vw 1vw 1vw 1vw; 
     text-shadow: 
-    2px 2px 0 #000,  /* Horizontal shadow */
-    -1px -1px 0 #000, /* Top-left shadow */
-    1px -1px 0 #000,  /* Top-right shadow */
-    -1px 1px 0 #000,  /* Bottom-left shadow */
-    1px 1px 0 #000;   /* Bottom-right shadow */
+    2px 2px 0 #000,  
+    -1px -1px 0 #000, 
+    1px -1px 0 #000,  
+    -1px 1px 0 #000,  
+    1px 1px 0 #000;   
   }
   
+   /* Pages when hovered Darken and have Rounded Corners */
   #nav-bar nav ul li a:hover {
-    background-color: #0984c4; /* Darker blue shade for hover effect */
-    border-radius: 1vw 1vw 1vw 1vw; /* Rounded corners at the bottom only */
+    background-color: #0984c4;
+    border-radius: 1vw 1vw 1vw 1vw;
   }
+
+  /* NAVBAR CSS End*/
+
+
+/* Title CSS Start*/
+
+#title {
+    background-color: #FC9F5B; 
+    border: 0.25vw solid white; 
+    text-align: center; 
+    border-radius: 1vw 1vw 1vw 1vw; 
+    height: 14vw;
+    margin: auto;
+    width: 50vw; 
+    box-shadow: 0 0.5vw 5px rgba(0,0,0,0.2); 
+  }
+
+  #title h1 {
+    margin-top: 0.75vw; 
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: K2D_BOLD;
+    font-size: 4.5vw;
+    width: 45vw;
+    border-radius: 1vw 1vw 1vw 1vw; 
+    text-shadow: 
+    2px 2px 0 #000,  
+    -1px -1px 0 #000, 
+    1px -1px 0 #000,  
+    -1px 1px 0 #000,  
+    1px 1px 0 #000;   
+}
+
+/* Title CSS End*/
