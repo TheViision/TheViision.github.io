@@ -65,7 +65,27 @@ body{
 /* NAVBAR CSS End*/
 
 
+/* COLUMN CSS Start */
+
+#LIM img{
+  margin-top: 4vw;
+  border: 0.25vw solid white; 
+  text-align: center; 
+  border-radius: 1vw 1vw 1vw 1vw; 
+  height: 20vw;
+  box-shadow: 0 0.5vw 5px rgba(0,0,0,0.2); 
+}
+
+/* COLUMN CSS End */
+
+
 /* Title CSS Start*/
+
+#title-container{
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
 
 #title {
     background-color: #FC9F5B; 
@@ -97,3 +117,53 @@ body{
 }
 
 /* Title CSS End*/
+
+
+/* COLUMN CSS Start */
+
+#RIM img{
+  margin-top: 4vw;
+  border: 0.25vw solid white; 
+  text-align: center; 
+  border-radius: 1vw 1vw 1vw 1vw; 
+  height: 20vw;
+  box-shadow: 0 0.5vw 5px rgba(0,0,0,0.2); 
+}
+
+/* COLUMN CSS End */
+
+#intro{
+  background-color: #06DAC9; 
+  border: 0.25vw solid white; 
+  text-align: center; 
+  border-radius: 1vw 1vw 1vw 1vw; 
+  height: 14vw;
+  margin: 1vw;
+  width: 50vw; 
+  box-shadow: 0 0.5vw 5px rgba(0,0,0,0.2); 
+}
+
+#intro p{
+  margin-top: 0.75vw; 
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: KANIT;
+  font-size: 1vw;
+  width: 45vw;
+  border-radius: 1vw 1vw 1vw 1vw; 
+  text-shadow: 
+  2px 2px 0 #000,  
+  -1px -1px 0 #000, 
+  1px -1px 0 #000,  
+  -1px 1px 0 #000,  
+  1px 1px 0 #000;   
+}
+
+#center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  width: 50vw; 
+}
