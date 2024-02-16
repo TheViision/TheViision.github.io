@@ -67,13 +67,17 @@ body{
 
 /* COLUMN CSS Start */
 
-#LIM img{
-  margin-top: 4vw;
-  border: 0.25vw solid white; 
-  text-align: center; 
-  border-radius: 1vw 1vw 1vw 1vw; 
+#LIM, #RIM {
+  flex: 0 0 auto; 
+  margin-top: 4vw; 
+}
+
+#LIM img, #RIM img {
+  height: 100%; /* Make the images fill the container height */
+  border: 0.25vw solid white;
   height: 20vw;
-  box-shadow: 0 0.5vw 5px rgba(0,0,0,0.2); 
+  border-radius: 1vw;
+  box-shadow: 0 0.5vw 5px rgba(0,0,0,0.2);
 }
 
 /* COLUMN CSS End */
@@ -118,22 +122,8 @@ body{
 
 /* Title CSS End*/
 
-
-/* COLUMN CSS Start */
-
-#RIM img{
-  margin-top: 4vw;
-  border: 0.25vw solid white; 
-  text-align: center; 
-  border-radius: 1vw 1vw 1vw 1vw; 
-  height: 20vw;
-  box-shadow: 0 0.5vw 5px rgba(0,0,0,0.2); 
-}
-
-/* COLUMN CSS End */
-
 #intro{
-  background-color: #06DAC9; 
+  background-color: #0ABAFC; 
   border: 0.25vw solid white; 
   text-align: center; 
   border-radius: 1vw 1vw 1vw 1vw; 
@@ -166,4 +156,70 @@ body{
   flex-direction: column;
   justify-content: flex-start; 
   width: 50vw; 
+}
+
+
+/* CSS FOR CAROUSEL */
+
+#carousel_box {
+  background-color: #FF1D72; 
+  border: 0.25vw solid white; 
+  padding: 10px 0;
+  text-align: center; 
+  border-radius: 1vw; 
+  box-shadow: 0 0.5vw 5px rgba(0,0,0,0.2); 
+  margin-top: 1vw;
+  margin-bottom: 1vw; 
+  display: flex;
+  justify-content: center;
+  position: relative; 
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: space-around; 
+  width: 100%; 
+}
+
+.carousel-item {
+  position: relative; 
+  width: 100%; 
+  margin: 0 10px; 
+  overflow: hidden; 
+  border-radius: 1vw;
+}
+
+.carousel-item img {
+  box-shadow: 0 0.5vw 5px rgba(0,0,0,0.2);
+  width: 100%; 
+  height: auto; 
+  transition: transform 0.5s ease, box-shadow 0.5s ease; 
+}
+
+.carousel-text {
+  font-family: KANIT;
+  text-shadow: 
+  2px 2px 0 #000,  
+  -1px -1px 0 #000, 
+  1px -1px 0 #000,  
+  -1px 1px 0 #000,  
+  1px 1px 0 #000;   
+  font-size: 3vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  height: 100%; 
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: white; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0; 
+  transition: opacity 0.5s ease; 
+  pointer-events: none; 
+}
+
+.carousel-item:hover .carousel-text {
+  opacity: 1; 
 }
