@@ -135,6 +135,8 @@ body{
 
 /* Title CSS End*/
 
+/* Main Content CSS START */
+
 #intro{
   background-color: #0ABAFC; 
   border: 0.25vw solid white; 
@@ -171,7 +173,54 @@ body{
   width: 50vw; 
 }
 
+.orange-boxes {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+  
+  .orange-box {
+    background-color: #FC9F5B; 
+    border: 0.25vw solid white; 
+    text-align: center; 
+    border-radius: 1vw 1vw 1vw 1vw; 
+    height: 25vw;
+    margin: auto;
+    width: 30vw; 
+    box-shadow: 0 0.5vw 5px rgba(0,0,0,0.2); 
+  }
 
+  .orange-boxes h2 {
+
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: K2D_BOLD;
+    font-size: 1.5vw;
+    width: 25vw;
+    border-radius: 1vw 1vw 1vw 1vw; 
+    text-shadow: 
+    -1px -1px 0 #000, 
+    1px -1px 0 #000,  
+    -1px 1px 0 #000,  
+    1px 1px 0 #000;   
+  }
+
+  #text_box{
+    background-color: #fff; 
+    border: 0.25vw solid black; 
+    text-align: left; 
+    border-radius: 1vw 1vw 1vw 1vw; 
+    width: 25vw; 
+    margin: auto;
+  }
+
+  #text_box p{
+    font-family: KANIT;
+  }
+
+  /* Main Content CSS END */
 
 /* Footer CSS */
 footer {

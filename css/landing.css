@@ -140,14 +140,14 @@ body{
   border: 0.25vw solid white; 
   text-align: center; 
   border-radius: 1vw 1vw 1vw 1vw; 
-  height: 14vw;
+  height: 20vw;
   margin: 1vw;
   width: 50vw; 
   box-shadow: 0 0.5vw 5px rgba(0,0,0,0.2); 
 }
 
 #intro p{
-  margin-top: 1vw; 
+  margin-top: 2vw; 
   display: inline-block;
   color: black;
   text-align: center;
@@ -163,6 +163,18 @@ body{
   flex-direction: column;
   justify-content: flex-start; 
   width: 50vw; 
+}
+
+#text_box{
+  display: inline-block;
+  background-color: #fff; 
+  border: 0.25vw solid black; 
+  text-align: center; 
+  border-radius: 1vw 1vw 1vw 1vw; 
+  width: 47vw; 
+  height: 15vw;
+  margin: auto;
+  margin-top: 2vw;
 }
 
 
@@ -231,6 +243,7 @@ body{
   opacity: 1; 
 }
 
+/* JS CSS START */
 .popup-text {
   position: absolute;
   top: 27.5%; /* Adjust as needed */
@@ -245,6 +258,11 @@ body{
   display: none; /* Hide the popup text by default */
 }
 
+.popup-text{
+  font-family: KANIT;
+}
+
+/* JSS CSS END */
 
 
 .carousel-item:hover .popup-text {
