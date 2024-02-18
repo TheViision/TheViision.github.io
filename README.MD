@@ -2,25 +2,24 @@
 
 ## Project Description:
 
-The objective of the FrameCraft project was to design and construct a website that would exhibit a film produced in collaboration for the 30-Minute Film Festival (30MFF). The requirement was for the website to include elements of HTML, CSS, and JavaScript. The overarching concept and theme aimed at offering an immersive and accessible experience for visitors, simultaneously reflecting the collaborative film's theme, which prominently featured stop motion animation.
-
-Stop motion animation, known for its meticulous attention to detail and imaginative storytelling, provided the inspiration for this endeavor. The aspiration was for the website to echo the charm and creativity inherent in stop motion, whilst ensuring a user-friendly interface that would allow visitors to navigate and explore with ease.
+For this assignment the class was tasked on designing and constructing a website to display a film(s) produced in collaborative groups for the 30-Minute Film Festival (30MFF). This venture necessitated the integration of HTML, CSS, and JavaScript to not only present the film but also to encapsulate an immersive experience for its audience. The project's ethos was rooted in the charm and inventiveness of stop motion animation, aiming to reflect these qualities in the website's design and user interface. This approach was intended to resonate with the creative spirit of the festival's submission, employing stop motion as a fundamental theme.
 
 ## Process:
 
-Approaching the project with an awareness of limitations and objectives, particularly given the relative inexperience in interactive media and website creation, there was a deliberate focus on creativity within a clearly defined scope, prioritizing usability.
+My approach to the project was marked by a conscious acknowledgment of my nascent skills in interactive media and website creation, coupled with a resolute determination to channel my creativity within a well-defined framework, always keeping usability at the forefront. I chose to employ bright colors and rounded shapes in the design, intending to foster a warm and inviting atmosphere. This design strategy was not only about appealing to newcomers but also about subtly echoing the intricate beauty of stop motion animation that characterized our collaborative 30MFF film.
 
-The decision to use bright colors and rounded shapes in the website’s design was driven by the intention to create a welcoming and accessible aesthetic. This design choice sought to attract newcomers and subtly mirror the stop motion theme present in the collaborative 30MFF video.
+In crafting the background art, I opted for a blend of pixel art and images that depict the behind-the-scenes magic of stop motion creation. This strategic choice served to balance the vibrant design elements, ensuring that the visual narrative complements rather than overwhelms the user experience, while still reinforcing the thematic core of the project.
 
-In the creation of background art, a mix of pixel art and images depicting the process of creating stop motion was used. This choice provided a contrast to the vibrant design elements, preventing visual overload for the user while reinforcing the project's thematic elements.
-
-For JavaScript functionality, the implementation focused on interactive popup bubbles activated by mouse hover over key images on the landing page. This feature was designed to engage users and promote interaction, reflecting the inherently captivating nature of stop motion animation.
+Furthermore, interactive features like popup bubbles that appear when users hover over certain images on the homepage, were woven into the design to enhance engagement and interaction, mirroring the captivating nature of stop motion animation. This element was designed to invite users to dive deeper into the website, promoting a sense of discovery and active participation.
 
 ## Reflection/Evaluation:
 
-In retrospect, the FrameCraft project is considered a success in alignment with its initial concept and objectives. The website effectively captures the essence of stop motion animation and offers an engaging, user-friendly experience for its visitors.
+Reflecting on the FrameCraft project, I view it as a resounding success that achieved its initial goals, effectively capturing the essence of stop motion animation and delivering an engaging, user-friendly platform for viewers. However, the journey wasn’t devoid of learning opportunities, particularly in the realm of JavaScript integration. The execution in some sections was less smooth than anticipated, which decelerated the development pace. Looking ahead, I believe that honing my JavaScript skills and enhancing my planning strategies will enable a more streamlined development process and elevate the overall user experience.
 
-Despite its successes, there are identified areas for improvement, notably in the integration of JavaScript. The execution of JavaScript in certain sections of the website did not proceed as smoothly as intended, impacting the development pace. A future focus on refining JavaScript skills and enhancing planning efficiency is believed to streamline the development process and improve the user experience.
+This project has been a profound learning experience, illuminating the vital role of patience in web development. From addressing technical challenges to refining design details, every step reinforced the notion that dedication and time are indispensable ingredients in the recipe for success. Armed with these insights, I am now more prepared than ever to embark on future projects, equipped with a deeper understanding of what it takes to transform creative visions into digital realities.
 
-Moreover, the project has imparted significant lessons in web design and development, highlighting the critical role of patience throughout the creation process. From addressing technical challenges to perfecting design elements, patience has been underscored as a vital component. With these insights, there is a renewed commitment to approaching future projects with an enhanced appreciation for the time and dedication required to realize a web-based vision.
+
+
+
+
 
