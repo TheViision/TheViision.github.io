@@ -70,6 +70,32 @@ body{
 /* NAVBAR CSS End*/
 
 
+/* COLUMN CSS Start */
+
+#LIM, #RIM {
+    flex: 0 0 auto; 
+    margin-top: 4vw; 
+  }
+  
+  #LIM{
+    margin-right: 2vw;
+  }
+  
+  #RIM{
+    margin-left: 2vw;
+  }
+  
+  #LIM img, #RIM img {
+    height: 100%; /* Make the images fill the container height */
+    border: 0.25vw solid white;
+    height: 20vw;
+    border-radius: 1vw;
+    box-shadow: 0 0.5vw 5px rgba(0,0,0,0.2);
+  }
+  
+  /* COLUMN CSS End */
+  
+
 /* Title CSS Start*/
 
 #title-container{
@@ -83,7 +109,7 @@ body{
     border: 0.25vw solid white; 
     text-align: center; 
     border-radius: 1vw 1vw 1vw 1vw; 
-    height: 25vw;
+    height: 35vw;
     margin: auto;
     width: 50vw; 
     box-shadow: 0 0.5vw 5px rgba(0,0,0,0.2); 
@@ -103,7 +129,7 @@ body{
     border: 0.25vw solid white; 
     text-align: center; 
     border-radius: 1vw 1vw 1vw 1vw; 
-    height: 20vw;
+    height: 25vw;
     margin: 1vw;
     width: 50vw; 
     box-shadow: 0 0.5vw 5px rgba(0,0,0,0.2); 
@@ -136,7 +162,7 @@ body{
     text-align: center; 
     border-radius: 1vw 1vw 1vw 1vw; 
     width: 47vw; 
-    height: 15vw;
+    height: 20vw;
     margin: auto;
     margin-top: 2vw;
   }
