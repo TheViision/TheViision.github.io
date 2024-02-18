@@ -70,32 +70,6 @@ body{
 /* NAVBAR CSS End*/
 
 
-/* COLUMN CSS Start */
-
-#LIM, #RIM {
-  flex: 0 0 auto; 
-  margin-top: 4vw; 
-}
-
-#LIM{
-    margin-right: 2vw;
-}
-
-#RIM{
-    margin-left: 2vw;
-}
-
-#LIM img, #RIM img {
-  height: 100%; /* Make the images fill the container height */
-  border: 0.25vw solid white;
-  height: 20vw;
-  border-radius: 1vw;
-  box-shadow: 0 0.5vw 5px rgba(0,0,0,0.2);
-}
-
-/* COLUMN CSS End */
-
-
 /* Title CSS Start*/
 
 #title-container{
@@ -109,28 +83,15 @@ body{
     border: 0.25vw solid white; 
     text-align: center; 
     border-radius: 1vw 1vw 1vw 1vw; 
-    height: 14vw;
+    height: 25vw;
     margin: auto;
     width: 50vw; 
     box-shadow: 0 0.5vw 5px rgba(0,0,0,0.2); 
   }
 
-  #title h1 {
-    margin-top: 3vw; 
-    display: inline-block;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-family: K2D_BOLD;
-    font-size: 4.5vw;
-    width: 45vw;
-    border-radius: 1vw 1vw 1vw 1vw; 
-    text-shadow: 
-    2px 2px 0 #000,  
-    -1px -1px 0 #000, 
-    1px -1px 0 #000,  
-    -1px 1px 0 #000,  
-    1px 1px 0 #000;   
+#title iframe {
+    border-radius: 10px; /* Add rounded corners */
+    margin-top: 20px; /* Add top margin */
 }
 
 /* Title CSS End*/
@@ -185,72 +146,6 @@ body{
   }
   
 
-.orange-boxes {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 0;
-  }
-  
-  .orange-box {
-    background-color: #FC9F5B; 
-    border: 0.25vw solid white; 
-    text-align: center; 
-    border-radius: 1vw 1vw 1vw 1vw; 
-    height: 40vw;
-    margin: auto;
-    width: 30vw; 
-    box-shadow: 0 0.5vw 5px rgba(0,0,0,0.2); 
-  }
-
-  .orange-boxes h2 {
-
-    display: inline-block;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-family: K2D_BOLD;
-    font-size: 1.5vw;
-    width: 25vw;
-    border-radius: 1vw 1vw 1vw 1vw; 
-    text-shadow: 
-    -1px -1px 0 #000, 
-    1px -1px 0 #000,  
-    -1px 1px 0 #000,  
-    1px 1px 0 #000;   
-  }
-
-  #tBox{
-    background-color: #fff; 
-    border: 0.25vw solid black; 
-    text-align: left; 
-    border-radius: 1vw 1vw 1vw 1vw; 
-    width: 25vw; 
-    margin: auto;
-    margin-top: 1vw;
-  }
-
-  #tBox p{
-    font-family: KANIT;
-  }
-
-  #actorA img{
-    background-color: #fff; 
-    border: 0.25vw solid black; 
-    text-align: left; 
-    border-radius: 1vw 1vw 1vw 1vw; 
-    width: 10vw; 
-    margin: auto;
-  }
-
-  #actorB img{
-    background-color: #fff; 
-    border: 0.25vw solid black; 
-    text-align: left; 
-    border-radius: 1vw 1vw 1vw 1vw; 
-    width: 10vw; 
-    margin: auto;
-  }
-  
   /* Main Content CSS END */
 
 /* Footer CSS */
